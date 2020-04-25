@@ -15,3 +15,9 @@
 .colorVerde {
   background-color: #74fcd4;
 }
+
+.contactForm {
+  padding: 10px;
+  margin: 10px;
+  margin-left: 0;
+}
