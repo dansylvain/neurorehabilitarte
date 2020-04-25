@@ -40,8 +40,33 @@ img:hover {
 
 .icone {
   font-size: 80px;
+  transition: 0.3s;
 }
+
+.icone:hover {
+  color: #74fcd4;
+}
+
+
 
 body {
   height: 100%
+}
+
+.aboutTabs {
+  display: flex;
+  justify-content: center;
+  width:100%;
+  margin-bottom: 30px;
+}
+
+a.active {
+  background-color: #74fcd4;
+  opacity: 0.5;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+a:visited {
+  color: black;
 }
